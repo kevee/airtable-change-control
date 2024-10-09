@@ -4,8 +4,8 @@
 
 Name                      | Type                 | Description                                                                                                                                                             
 --------------------------|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Name                      | formula              | 
-Tickets                   | multipleRecordLinks  | 
+Name                      | formula              | Full name of the worker.                                                                                                                                                
+Tickets                   | multipleRecordLinks  | Tickets filed under this worker's name.                                                                                                                                 
 First name                | singleLineText       | The person's first or given name.<br/><br/>{{personName:first}}                                                                                                         
 Last name                 | singleLineText       | The person's last or familial name.<br/><br/>{{personName:last}}                                                                                                        
 Middle name               | singleLineText       | The person's middle name.<br/><br/>{{personName:middle}}                                                                                                                
@@ -13,7 +13,7 @@ Nickname                  | singleLineText       | How a person would like to be
 Full name                 | formula              | The formatted name of the person. This includes a quoted nickname, if available.<br/><br/>{{personName:formattedFull}}                                                  
 Sort name                 | formula              | Name format used for sorting. This is helpful when sorting a view, so you can sort by this single field, instead of multiple ones.<br/><br/>{{personName:formattedSort}}
 Suffix                    | singleLineText       | The name suffix. For example, Jr. or III.<br/><br/>{{personName:suffix}}                                                                                                
-Cell phone number         | phoneNumber          | 
+Cell phone number         | phoneNumber          | A number that helpline staff can use to call the worker to open a new ticket.                                                                                           
 Email address             | email                | 
 Created on                | createdTime          | 
 Last modified on          | lastModifiedTime     | 
